@@ -1,0 +1,61 @@
+:root {
+  --primary-color: rgb(185, 121, 121);
+  --color-white: rgb(236, 115, 115);
+}
+/* navbar section starts here */
+#navbar {
+  background-color: var(--primary-color);
+}
+#navbar .navbar-brand,
+#navbar .nav-link {
+  color: var(--color-white);
+}
+.navbar-nav {
+  margin-left: 80px;
+}
+
+/* nav section ends here */
+.carousel-item {
+  height: 550px;
+}
+/* product section starts */
+.card-img,
+.card-img-top {
+  height: 250px;
+}
+.btn {
+  background-color: rgb(163, 47, 47);
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+#contact {
+  color: var(--color-white);
+}
+#contact .btn {
+  color: rgb(196, 169, 169);
+}
+#footer h7 {
+  font-size: 12px;
+}
+#footer h7 a {
+  padding: 5px;
+}
+
+#footer ul li {
+  list-style: none;
+}
+#footer ul {
+  padding: 0px 0px;
+}
+#footer ul li a {
+  color: black;
+}
+.fa-envelope-square {
+  color: black;
+}
+#footer a {
+  color: black;
+}
+.row {
+  color: brown;
+}
